@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gaiana.game">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Game">
+        <activity
+            android:name="com.gaiana.game.GeshevActivity3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.GeshevActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.GeshevActivity1"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.TechnoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.MetalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.IstorichkaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.FinalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.AngelActivity3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.OrbitaliActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.AngelActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.GaianaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.ToiletVodaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.gaiana.game.IdiKenefomActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.gaiana.game.DieActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.gaiana.game.ArbatActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.gaiana.game.ProitiActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.gaiana.game.AngelActivity2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gaiana.game.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
