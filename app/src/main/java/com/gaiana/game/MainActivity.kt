@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         b = ActivityMainBinding.inflate(layoutInflater)
         setContentView(b.root)
 
-        val list = listOf("3Defects ltd. 1999", "Проектът е remaster осъществен от:", "ChochoSan", "Озвучаване: Цоцик, Цомпов, Чочо..", "Креативен Директор: Цоцика")
+        val list = listOf("3Defects ltd. 1999", "Проектът е remaster осъществен от:", "Chocho", "Озвучаване: Цоцика, Цомпов, Чочо..", "Креативен Директор: Цоцика")
         Handler(Looper.getMainLooper()).postDelayed({b.tvAuthors.text = list[0]}, 5000)
         Handler(Looper.getMainLooper()).postDelayed({b.tvAuthors.text = list[1]}, 10000)
         Handler(Looper.getMainLooper()).postDelayed({b.tvAuthors.text = list[2]}, 15000)
