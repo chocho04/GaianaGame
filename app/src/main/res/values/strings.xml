@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Gaiana</string>
+    <string name="skip">пропусни »</string>
+    <string name="endings_found">Краища: %1$d / %2$d</string>
+    <string name="deaths_so_far">Умря общо %1$d пъти.</string>
 </resources>
